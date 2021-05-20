@@ -3,7 +3,7 @@ const app = express();
 const http = require("http");
 app.get("/", (request, response) => {
   console.log(
-    `Az Önce Bot Ping yedi, Sorun önemli değil merak etme. Hatayı düzelttik.`
+    `We fixed the error.`
   );
   response.sendStatus(200);
 });
